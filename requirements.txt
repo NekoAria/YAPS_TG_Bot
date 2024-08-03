@@ -11,4 +11,4 @@ pyquery~=2.0.0
 python-socks[asyncio]~=2.4.4;extra == "socks"
 socksio~=1.0.0;extra == "socks"
 Telethon~=1.34.0
-tenacity~=8.2.3
+tenacity~=9.0.0
