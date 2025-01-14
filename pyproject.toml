@@ -13,21 +13,21 @@ repository = "https://github.com/NekoAria/YetAnotherPicSearch4Telegram"
 keywords = ["telegram", "ascii2d", "baidu", "e-hentai", "google", "iqdb", "saucenao", "tracemoe", "yandex", "anime", "danbooru", "doujin", "pixiv"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.13.1"
 arrow = "^1.3.0"
-cachetools = "^5.3.3"
-httpx = "^0.27.0"
-loguru = "^0.7.2"
-lxml = "^5.2.1"
-PicImageSearch = "^3.10.0"
-Pillow = "^10.3.0"
-pydantic = {extras = ["dotenv"], version = "^2.7.0"}
-pydantic-settings = "^2.2.1"
-pyquery = "^2.0.0"
-python-socks = {extras = ["asyncio"], version = "^2.4.4", optional = true}
+cachetools = "^5.5.0"
+httpx = "^0.28.1"
+loguru = "^0.7.3"
+lxml = "^5.3.0"
+PicImageSearch = "^3.11.3"
+Pillow = "^10.4.0"
+pydantic = {extras = ["dotenv"], version = "^2.10.5"}
+pydantic-settings = "^2.7.1"
+pyquery = "^2.0.1"
+python-socks = {extras = ["asyncio"], version = "^2.6.1", optional = true}
 socksio = { version = "^1.0.0", optional = true }
-Telethon = "^1.34.0"
-tenacity = "^8.2.3"
+Telethon = "^1.38.1"
+tenacity = "^8.5.0"
 
 [tool.poetry.extras]
 socks = ["python-socks", "socksio"]
